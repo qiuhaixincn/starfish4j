@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="starfish4j:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/starfish4j_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="starfish4j" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="starfish4j/web/Web" />
+    </root>
+  </artifact>
+</component>

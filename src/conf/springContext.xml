@@ -100,11 +100,14 @@
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
     <!-- Cache配置 -->
+    <!--
     <cache:annotation-driven cache-manager="cacheManager"/>
     <bean id="ehCacheManagerFactory" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
           p:configLocation="classpath:conf/ehcache.xml"/>
     <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheCacheManager"
           p:cacheManager-ref="ehCacheManagerFactory"/>
+
+    -->
 
     <!-- mybatis文件配置，扫描所有mapper文件 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" p:dataSource-ref="dataSource"

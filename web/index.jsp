@@ -12,5 +12,9 @@
 </head>
 <body>
 这是一个首页测试！！！
+<form action="/user/login" method="post">
+    <input type="submit" value="提交"/>
+</form>
+
 </body>
 </html>
